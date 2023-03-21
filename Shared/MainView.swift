@@ -10,7 +10,7 @@ import OpenAISwift
 
 struct MainView: View {
     
-    let openAI = OpenAISwift(authToken: "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")
+    let openAI = OpenAISwift(authToken: "OPENAI_API_KEY")
     @State private var chatText: String = ""
     @EnvironmentObject private var model: Model
     
